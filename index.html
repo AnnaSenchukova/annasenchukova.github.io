@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" href="fonts/opensans.woff2" as="font">
+  <link rel="preload" href="fonts/opensans.woff" as="font">
+  <link rel="preload" href="fonts/opensansbold.woff2" as="font">
+  <link rel="preload" href="fonts/opensansbold.woff" as="font">
+  <link rel="preload" href="fonts/opensanslight.woff2" as="font">
+  <link rel="preload" href="fonts/opensanslight.woff" as="font">
+  <link rel="stylesheet" href="css/style.min.css" as="style">
+  <title>HTML Academy: Пинк</title>
+</head>
+<body>
+<header class="page-header">
+  <div class="page-header__wrapper container">
+    <nav class="page-navigation page-navigation--nojs">
+      <a class="page-navigation__logo logo logo--header" aria-label="Логотип промо-сайта для приложения Pink">
+        <svg class="logo__image logo__image--header logo__image--mobile" width="75" height="23">
+          <use xlink:href="img/svgsprite.svg#logo-word"></use>
+        </svg>
+        <svg class="logo__image logo__image--header logo__image--tablet" width="147" height="50">
+          <use xlink:href="img/svgsprite.svg#logo-with-glasses"></use>
+        </svg>
+        <svg class="logo__image logo__image--header logo__image--desktop" width="147" height="50">
+          <use xlink:href="img/svgsprite.svg#logo-with-stars"></use>
+          <svg class="logo__stars">
+            <use xlink:href="img/svgsprite.svg#logo-stars"></use>
+          </svg>
+        </svg>
+      </a>
+      <button class="page-navigation__button button button--navigation" type="button">
+        <span class="visually-hidden">
+          Кнопка взаимодействия с меню
+        </span>
+      </button>
+      <ul class="page-navigation__list site-list">
+        <li class="site-list__item">
+          <a class="site-list__link site-list__link--active">
+              Главная
+          </a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="photo.html">
+              Фотографии
+          </a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="contest.html">
+              Конкурс
+          </a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="https://htmlacademy.ru/intensive/adaptive">
+              HTML Academy
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="page-main">
+  <header class="header header--image">
+    <h1 class="header__caption visually-hidden">
+      Промо-страница приложения Pink
+    </h1>
+    <section class="promotion promotion--image container">
+      <div class="promotion__wrapper">
+        <h2 class="promotion__caption">
+          Взгляните на жизнь иначе!
+        </h2>
+        <a class="promotion__button button button--download" href="https://www.apple.com/ru/itunes/" aria-label="Ссылка на iTunes">
+          Скачать приложние
+        </a>
+        <ul class="promotion__market">
+          <li class="promotion__market-item">
+            <a class="promotion__market-link promotion__market-link--itunes" href="https://www.apple.com/ru/itunes/">
+            <span class="visually-hidden">
+              iTunes
+            </span>
+            </a>
+          </li>
+          <li class="promotion__market-item">
+            <a class="promotion__market-link promotion__market-link--android" href="https://play.google.com/store">
+            <span class="visually-hidden">
+              Android
+            </span>
+            </a>
+          </li>
+          <li class="promotion__market-item">
+            <a class="promotion__market-link promotion__market-link--microsoft" href="https://www.microsoft.com/ru-ru/store/apps/windows">
+            <span class="visually-hidden">
+              Microsoft Store
+            </span>
+            </a>
+          </li>
+        </ul>
+        <p class="promotion__description">
+          Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+        </p>
+      </div>
+    </section>
+  </header>
+  <section class="advantages">
+    <h2 class="visually-hidden">
+      Наши преимущества.
+    </h2>
+    <div class="advantages__slogan-wrapper">
+      <p class="advantages__slogan">
+        Устали от серости мегаполиса?
+      </p>
+      <p class="advantages__slogan">
+        Нам есть, что вам предложить!
+      </p>
+    </div>
+    <div class="advantages__list-wrapper">
+      <div class="advantages__container-wrapper container">
+        <ul class="advantages__list">
+          <li class="advantages__item advantages__item--joy">
+            <h3 class="advantages__title">
+              Поднимает настроение
+            </h3>
+            <p class="advantages__description">
+              Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+            </p>
+          </li>
+          <li class="advantages__item advantages__item--peace">
+            <h3 class="advantages__title">
+              Меняет мир вокруг
+            </h3>
+            <p class="advantages__description">
+              Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить&nbsp;эффект
+            </p>
+          </li>
+          <li class="advantages__item advantages__item--friends">
+            <h3 class="advantages__title">
+              Заводит новых друзей
+            </h3>
+            <p class="advantages__description">
+              Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="advantages__article-wrapper">
+      <article class="article container">
+        <div class="article__wrapper">
+          <h3 class="article__title">
+            Эффект на&nbsp;24&nbsp;часа!
+          </h3>
+          <p class="article__descriptions">
+            Британские ученые провели исследования и&nbsp;доказали, что&nbsp;положительный эффект от&nbsp;использования
+            приложения длится целые сутки!
+          </p>
+          <a class="article__link" href="https://youtu.be/5gGJ5Qcc-MU">
+            Узнать больше об исследовании
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="comments">
+    <h2 class="visually-hidden">
+      Отзывы тех, кто уже установил себе приложение Pink
+    </h2>
+    <div class="comments__wrapper slider container">
+      <input class="slider__check slide-1" id="comments-1" type="radio" name="toggle--comments" value="slide-1--comments" checked>
+      <input class="slider__check slide-2" id="comments-2" type="radio" name="toggle--comments" value="slide-2--comments">
+      <input class="slider__check slide-3" id="comments-3" type="radio" name="toggle--comments" value="slide-3--comments">
+      <div class="comments__list slider__list slider__list--comments">
+        <blockquote class="comments__item slider__item slider__item--1">
+          <p class="comments__text">
+            «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+            познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+          </p>
+          <div class="comments__author">
+            <cite class="comments__author-name">
+              Николай Петров
+            </cite>
+            <p class="comments__author-info">
+              25 лет, водитель трамвая
+            </p>
+          </div>
+        </blockquote>
+        <blockquote class="comments__item slider__item slider__item--2">
+          <p class="comments__text">
+            «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+            познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+          </p>
+          <div class="comments__author">
+            <cite class="comments__author-name">
+              Просто Петров
+            </cite>
+            <p class="comments__author-info">
+              25 лет, водитель трамвая
+            </p>
+          </div>
+        </blockquote>
+        <blockquote class="comments__item slider__item slider__item--3">
+          <p class="comments__text">
+            «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я
+            познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+          </p>
+          <div class="comments__author">
+            <cite class="comments__author-name">
+              Петр Петров
+            </cite>
+            <p class="comments__author-info">
+              25 лет, водитель трамвая
+            </p>
+          </div>
+        </blockquote>
+      </div>
+      <div class="comments__pagination slider__pagination">
+        <a class="slider__arrow slider__arrow--prev" href="#">
+          Назад
+        </a>
+        <a class="slider__arrow slider__arrow--next" href="#">
+          Вперед
+        </a>
+      </div>
+      <p class="comments__toggles slider__controls">
+        <label class="slider__toggle slider__toggle--1" for="comments-1" tabindex="0">
+          1
+        </label>
+        <label class="slider__toggle slider__toggle--2" for="comments-2" tabindex="0">
+          2
+        </label>
+        <label class="slider__toggle slider__toggle--3" for="comments-3" tabindex="0">
+          3
+        </label>
+      </p>
+    </div>
+  </section>
+  <section class="subscription">
+    <h2 class="visually-hidden">
+      Выбирите свой тарифный план
+    </h2>
+    <div class="subscription__wrapper slider">
+      <input class="slider__check slide-1" id="tariff-1" type="radio" name="toggle--tariff" value="slide-1--tariff">
+      <input class="slider__check slide-2" id="tariff-2" type="radio" name="toggle--tariff" value="slide-2--tariff" checked>
+      <input class="slider__check slide-3" id="tariff-3" type="radio" name="toggle--tariff" value="slide-3--tariff">
+      <div class="slider__wrapper container">
+        <table class="subscription__tariffs slider__item">
+          <thead class="subscription__tariffs-caption">
+          <tr class=subscription__tariffs-description>
+            <th class="subscription__description subscription__description--hidden">
+              Тарифный план
+            </th>
+            <th class="subscription__description">
+              База
+              <span class="subscription__price">
+                1,99 USD
+              </span>
+            </th>
+            <th class="subscription__description subscription__description--hit">
+              Стандарт
+              <span class="subscription__price">
+                3,99 USD
+              </span>
+            </th>
+            <th class="subscription__description">
+              Анлим
+              <span class="subscription__price">
+                9,99 USD
+              </span>
+            </th>
+          </tr>
+          </thead>
+          <tr class="subscription__tariff-options">
+            <td class="subscription__option  subscription__option--hidden">
+              Розовый фильтр
+            </td>
+            <td class="subscription__option subscription__option--enabled">
+              Розовый фильтр
+              <span class="visually-hidden">
+                есть
+              </span>
+            </td>
+            <td class="subscription__option subscription__option--enabled">
+              Розовый фильтр
+              <span class="visually-hidden">
+                есть
+              </span>
+            </td>
+            <td class="subscription__option subscription__option--enabled">
+              Розовый фильтр
+              <span class="visually-hidden">
+                есть
+              </span>
+            </td>
+          </tr>
+          <tr class="subscription__tariff-options">
+            <td class="subscription__option subscription__option--hidden">
+              Смайлики
+            </td>
+            <td class="subscription__option subscription__option--disabled">
+              Смайлики
+              <span class="visually-hidden">
+                нет
+              </span>
+            </td>
+            <td class="subscription__option subscription__option--enabled">
+              Смайлики
+              <span class="visually-hidden">
+                есть
+              </span>
+            </td>
+            <td class="subscription__option subscription__option--enabled">
+              Смайлики
+              <span class="visually-hidden">
+                есть
+              </span>
+            </td>
+          </tr>
+          <tr class="subscription__tariff-options">
+            <td class="subscription__option subscription__option--hidden">
+              Комментарии
+            </td>
+            <td class="subscription__option subscription__option--disabled">
+              Комментарии
+              <span class="visually-hidden">
+                нет
+              </span>
+            </td>
+            <td class="subscription__option subscription__option--disabled">
+              Комментарии
+              <span class="visually-hidden">
+                нет
+              </span>
+            </td>
+            <td class="subscription__option subscription__option--enabled">
+              Комментарии
+              <span class="visually-hidden">
+                есть
+              </span>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <p class="subscription__toggles slider__controls">
+        <label class="slider__toggle slider__toggle--1" for="tariff-1" tabindex="0">
+          1
+        </label>
+        <label class="slider__toggle slider__toggle--2" for="tariff-2" tabindex="0">
+          2
+        </label>
+        <label class="slider__toggle slider__toggle--3" for="tariff-3" tabindex="0">
+          3
+        </label>
+      </p>
+    </div>
+  </section>
+  <section class="contacts">
+    <div class="contacts__wrapper container">
+      <h2 class="visually-hidden">
+        Контактная информация
+      </h2>
+      <div class="contacts__wrapper contacts__wrapper--caption">
+        <p class="contacts__slogan">
+          Остались вопросы?
+        </p>
+        <p class="contacts__slogan">
+          Свяжитесь с нами!
+        </p>
+      </div>
+      <div class="contacts__wrapper contacts__wrapper--item">
+        <p class="contacts__title">
+          Звоните:
+        </p>
+        <p class="contacts__description">
+          +7 (812) 555-66-66
+        </p>
+      </div>
+      <div class="contacts__wrapper contacts__wrapper--item">
+        <p class="contacts__title">
+          Пишите:
+        </p>
+        <a class="contacts__description contacts__description--post" href="http://mail@htmlacademy.ru">
+          mail@htmlacademy.ru
+        </a>
+      </div>
+      <div class="contacts__wrapper contacts__wrapper--item">
+        <p class="contacts__title">
+          Приезжайте в гости:
+        </p>
+        <p class="contacts__description">
+          ул. Большая<br>
+          Конюшенная, 19/8
+        </p>
+      </div>
+    </div>
+    <section class="contacts__map map">
+      <h2 class="visually-hidden">
+        Карта
+      </h2>
+      <div class="map__image"></div>
+    </section>
+  </section>
+</main>
+<footer class="page-footer page-footer--hidden">
+  <div class="page-footer__wrapper container">
+    <a class="page-footer__logo logo logo--footer" aria-label="Логотип промо-сайта для приложения Pink">
+      <svg class="logo__image logo__image--footer logo__image--mobile" width="147" height="50">
+        <use xlink:href="img/svgsprite.svg#logo-with-glasses"></use>
+      </svg>
+      <svg class="logo__image logo__image--footer logo__image--tablet" width="147" height="50">
+        <use xlink:href="img/svgsprite.svg#logo-with-glasses"></use>
+      </svg>
+      <svg class="logo__image logo__image--footer logo__image--desktop" width="147" height="50">
+        <use xlink:href="img/svgsprite.svg#logo-with-stars"></use>
+        <use xlink:href="img/svgsprite.svg#logo-stars"></use>
+      </svg>
+    </a>
+    <ul class="page-footer__social social">
+      <li class="social__item">
+        <a class="social__link social__link--tw" href="https://www.twitter.com">
+            <span class="visually-hidden">
+              Twitter
+            </span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--fb" href="https://www.facebook.com">
+            <span class="visually-hidden">
+              Facebook
+            </span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--youtube" href="https://www.youtube.com">
+            <span class="visually-hidden">
+              YouTube
+            </span>
+        </a>
+      </li>
+    </ul>
+    <div class="copyright">
+    <a class="copyright__link" href="https://htmlacademy.ru/intensive/htmlcss">
+      <p class="copyright__description">
+        Разработано
+      </p>
+      <p class="visually-hidden">
+        HTML Academy
+      </p>
+      <svg class="copyright__svg" width="26.943" height="34.09">
+          <use xlink:href="img/svgsprite.svg#logo-academy"></use>
+      </svg>
+    </a>
+    </div>
+  </div>
+</footer>
+<script src="js/picturefill.js"></script>
+<script src="js/svg4everybody.js"></script>
+<script>svg4everybody();</script>
+<script src="js/navigation.js"></script>
+<script src="js/interactivemap.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEPgUTh-jVy6qLG93pUjyffkqFJcHVmlI&callback=initMap"></script>
+</body>
+</html>
